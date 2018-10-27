@@ -1,3 +1,3 @@
 # javascript_jQuery_10_27
 
-## Class Activities Solved
+#### Class Activities Solved
