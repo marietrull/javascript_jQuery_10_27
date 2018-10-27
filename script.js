@@ -4,12 +4,24 @@ console.log("Javascript Connected");
 // Q: What is the highest selling product at walmart?
 // A: Bananas
 
-
-console.log("Fizzbuzz Activity");
+console.log("Fizzbuzz");
 
 // * Write a script that prints the numbers 1 to 100 in the console. But for multiples of three, print `Fizz` instead of the number. For multiples of five, print `Buzz`. For numbers which are multiples of both three and five, print `FizzBuzz`.
 
-
+for (var i = 0; i <= 100; i++) {
+	if (i % 3 === 0 && i % 5 === 0) {
+		console.log("FizzBuzz " + i);
+	}
+	else if (i % 3 === 0){
+		console.log("Fizz" + i);
+	}
+	else if (i % 5 === 0){
+		console.log("Buzz " + i);
+	}
+	else {
+		console.log("Not Divisible")
+	}
+}
 
 console.log("Coin Flip Activity");
 
