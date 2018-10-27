@@ -1,9 +1,6 @@
 console.log("Javascript Connected");
 
-// Interview Question
-// Q: What is the highest selling product at walmart?
-// A: Bananas
-
+//----------------FIZZBUZZ------------------//
 console.log("Fizzbuzz");
 
 // * Write a script that prints the numbers 1 to 100 in the console. But for multiples of three, print `Fizz` instead of the number. For multiples of five, print `Buzz`. For numbers which are multiples of both three and five, print `FizzBuzz`.
@@ -23,7 +20,31 @@ for (var i = 0; i <= 100; i++) {
 	}
 }
 
-console.log("Coin Flip Activity");
+
+//----------------PRIME CHECKER------------------//
+console.log("Prime Checker");
+// * Write a function that checks to see if a number is a prime number or not. Have it return `true` if it is, or `false` if it isn't.
+
+function primeChecker (number) {
+
+	for (var i = 2; i < number; i++){
+		if (number % i === 0){
+			console.log(number + " is not prime.")
+			break;
+		}
+		else {
+			console.log(number + " is prime.")
+			break;
+		}
+	}
+
+}
+
+primeChecker(4);
+
+//----------------COIN FLIP ACTIVITY------------------//
+
+// console.log("Coin Flip Activity");
 
 var headsCount = 0;
 var tailsCount = 0;
